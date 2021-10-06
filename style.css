@@ -21,7 +21,7 @@
 
 aside{
     float: left;
-    background-color: blue;
+    background-color:rgba(0,0,0,255);
     width: 250px;
     height: 100%;
     
@@ -45,8 +45,8 @@ aside{
 }
 
 .io{
-    background-color: tomato;
-    border: solid 1px black;
+    background-color:rgba(0,0,0,255);
+    /* border: solid 1px black; */
     width:250px;
     height:150px;
 }
@@ -71,8 +71,8 @@ aside{
              /* sezione playlist */
 
 .playlist{
-    background-color: tomato;
-    border: solid 1px black;
+    background-color: rgba(0,0,0,255);
+    /* border: solid 1px black; */
     width:250px;
     height:400px;
 }
@@ -134,8 +134,8 @@ li{
 
               /* sezione account */
 .account{
-    background-color: tomato;
-    border: solid 1px black;
+    /* background-color: tomato;
+    border: solid 1px black; */
     width:250px;
     height:100px;
 }
@@ -144,7 +144,7 @@ li{
 
 main{
     float: left;
-    background-color: brown;
+    background-color:rgba(20,25,34,255);
     width: calc(100% - 250px);
     height: 100%;
     overflow: scroll;
@@ -153,8 +153,7 @@ main{
 .button_side{
     width: 100% ;
     height: 100px;
-    background-color: violet;
-    border: solid 1px black;
+    background-color: rgba(8,11,18,255);
 }
 
 button{
@@ -165,7 +164,7 @@ button{
     border: 2px solid white;
     border-radius: 30px;
     float: right;
-    /* cursor: pointer; */
+    margin-top: 20px;
 }
 
 button:hover{
@@ -175,8 +174,8 @@ button:hover{
 .nav_main{
     width: 100% ;
     height: 60px;
-    background-color: rgb(70, 23, 70);
-    border: solid 1px black;
+    /* background-color: rgb(70, 23, 70); */
+    /* border: solid 1px black; */
 }
 
 .nav_main ul li{
@@ -200,6 +199,7 @@ ul{
 }
 
 .title{
+    color: white;
     font-size: 30px;
 }
 
@@ -207,12 +207,16 @@ ul{
     width: 100%;
     height: 400px;
     margin: 10px;
-    background-color: rgb(160, 219, 66);
-    border: solid 1px black;
+    /* background-color: rgb(160, 219, 66);
+    border: solid 1px black; */
+}
+
+.played-main h5{
+    color: grey;
 }
 
 .play{
-    background-color: darkgray;
+    /* background-color: darkgray; */
     margin: 10px 10px 10px 0;
     width: 15%;
     height:50%;
@@ -222,7 +226,7 @@ ul{
 
 .play:hover{
     opacity:20%;
-    transition: 2s;
+    transition: 1s;
     
 }
 .fa-play-circle:hover{
@@ -243,12 +247,49 @@ ul{
 #one{
     background-image:url(img/metal_lifting.jpg);
 }
+#two{
+    background-image: url(img/stranger.jpeg);
+}
+#three{
+    background-image: url(img/aquietplace.jpeg);
+}
+#four{
+    background-image: url(img/split.jpeg);
+}
+#five{
+    background-image: url(img/cure.jpeg);
+}
+#six{
+    background-image: url(img/sinister.jpeg);
+}
+#seven{
+    background-image: url(img/mixdaily.jpeg);
+}
+#eight{
+    background-image: url(img/radar.jpeg);
+}
+#nine{
+    background-image: url(img/youg.jpeg);
+}
+#ten{
+    background-image: url(img/einaudi.jpeg);
+}
+
 
 .pics{
     width: 100%;
     height: 100%;
     background-size: cover; 
 }
+
+.pics_circle{
+    width: 100%;
+    height: 100%;
+    background-size: cover; 
+    border-radius: 50%;
+}
+
+
 
 .pics_text{
     margin-top: 15px;
@@ -295,14 +336,62 @@ ul{
     width: 500px;
     height: 100px;
 }
+.player_icon{
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+h1 {
+    border-bottom: 2px solid grey;
+  }
+  h1:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: -2px;
+    max-width: 100px;
+  }
+  
 
 .dx{
-    background-color: white;
+    background-color: rgba(40,40,40,255);
     border: solid 1px black;
     width: 200px;
     height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.num{
+    background-color: gold;
+    border: solid 1px black;
+    width: 20px;
+    height: 100px;
+    float: left;
 }
 
 
+.player_icon_dx{
+    color: white;
+    letter-spacing: 5px;
+    padding: 10px;
+    
+}
+
+h1 {
+    border-bottom: 2px solid grey;
+
+}
+
+  h1:after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid lightgray;
+    margin-bottom: -2px;
+    max-width: 50px;
+}
 
 
