@@ -27,18 +27,65 @@ aside{
     
 }
 
-.account{
-    
-} 
-.aside_to{
+.home_section{
+    padding: 10px;
+}
+
+.logo{
+    background-color: black;
+    width:250px;
+    height:80px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.spotify{
+    width: 50%;
+}
+
+.io{
     background-color: tomato;
     border: solid 1px black;
     width:250px;
-    height:100px;
-    margin-top: 110%;
+    height:150px;
 }
 
-.aside_tool{
+.home{
+    width: 15%;
+    display: flex;
+}
+
+
+.home_text{
+    color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.playlist{
+    background-color: tomato;
+    border: solid 1px black;
+    width:250px;
+    height:400px;
+}
+
+.home_imgio {
+    color:grey;
+    font-size: 35px;
+    
+}
+
+li{
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    list-style-type: none;
+    line-height: 20px;
+}
+
+
+.account{
     background-color: tomato;
     border: solid 1px black;
     width:250px;
@@ -119,7 +166,7 @@ ul{
 .play{
     background-color: darkgray;
     margin: 10px 10px 10px 0;
-    width: 19%;
+    width: 15%;
     height:50%;
     float: left;
     position: relative;
