@@ -48,7 +48,7 @@ aside{
     width:250px;
     height:150px;
 }
-#pip{
+#border_color{
     border-left: 2px solid #adff2f;
 }
 .home{
@@ -199,7 +199,7 @@ ul{
     text-decoration: underline solid #adff2f 3px;
 }
 
-.title{
+.title, .title_{
     color: white;
     font-size: 30px;
 }
@@ -300,7 +300,7 @@ ul{
     color: grey;
 }
 
-/* player */
+/* player */ 
 
 #player{
     background-color:rgba(40,40,40,255);
@@ -459,6 +459,7 @@ ul{
         margin-top: 30px;
         height: 350px;
     }
+    
     .pics_circle{
         margin-top: 30px;
         width:75%;
