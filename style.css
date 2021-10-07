@@ -286,8 +286,6 @@ ul{
     border-radius: 50%;
 }
 
-
-
 .pics_text{
     margin-top: 15px;
     text-align: center;
@@ -394,9 +392,9 @@ ul{
     width: 70px;
 }
 .light_ce:hover{
-    background-color: #adff2f;
-    
+    background-color: #adff2f;  
 }
+
 .grey_ce{
     background:grey;
     width: 400px;
@@ -413,13 +411,26 @@ ul{
     cursor: pointer;
 } 
 
+/* Responsive */
+
 @media all and (max-width:780px) {
-    /* sezione main - button  */
     
     aside{
         width: 5%;
     }
-    
+
+    .account{
+        margin-top: 340px;
+    }
+    .app_text, .bord, .app, .line_{
+        display: none;
+    }
+
+    .nav_main{
+        width: 50%;
+        margin:auto;
+    }
+
 
     /* sezione wrapper */
     #wrapper{
@@ -437,21 +448,29 @@ ul{
         margin-top: 40px;
     }
     .play{
-        width: 50%;
+        width: 45%;
         margin-bottom: 20%;
+        margin-top: 10%;
+    }
+
+    .pics{
+        /* margin-left: 80px; */
     }
     
 
     /* sezione player responsive */
     #player{
-      width: 100%;
+      width:100%;
     }
-    .account{
+    /* .account{
         margin-top: 340px;
     }
     .app_text, .bord, .app{
         display: none;
     }
+    .line_{
+        display: none;
+    } */
 
     
   }
